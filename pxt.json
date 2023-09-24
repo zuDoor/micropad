@@ -1,0 +1,27 @@
+{
+    "name": "microPad",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "microbit-pxt-blehid": "github:bsiever/microbit-pxt-blehid#v0.0.24",
+        "bluetooth": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
